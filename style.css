@@ -16,6 +16,17 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
+}
+
+.content h1 {
+    position: relative;
+    bottom: 40px;
+}
+
+.container {
+    display: flex;
+    padding: 0 40px;
 }
 
 .projects {
@@ -37,4 +48,15 @@
 
 .btn:hover {
     background-color: rgb(207, 123, 12);
+}
+
+.student {
+    color: #fff;
+    text-align: center;
+    padding: 0 10px;
+}
+
+#student-2 {
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
 }
